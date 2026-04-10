@@ -9,5 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("colorBtn").onclick = function() {
     document.body.style.backgroundColor = "lightgreen";
   };
-
+  console.log("JavaScript is working!");
+  
 });
