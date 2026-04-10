@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
